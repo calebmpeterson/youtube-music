@@ -36,6 +36,8 @@ export default defineConfig({
       targets: [
         { src: 'src/error.html', dest: 'dist/' },
         { src: 'assets', dest: 'dist/' },
+        { src: 'src/plugins/music-map/music-map-preload.js', dest: 'dist/' },
+        { src: 'src/plugins/music-map/music-map.js', dest: 'dist/' },
       ],
     }),
     terser({

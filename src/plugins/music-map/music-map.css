@@ -1,0 +1,40 @@
+.map_info {
+  display: none !important;
+}
+
+#gnodMap {
+  left: 0px !important;
+  box-shadow: none !important;
+}
+
+.advert {
+  display: none !important;
+}
+
+.headline[class] {
+  padding-top: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.subheadline[class] {
+  display: none;
+}
+
+.project[class] {
+  background-color: #020202;
+  color: #fff;
+}
+
+.the_title[class] {
+  background-color: #020202 !important;
+  color: #fff;
+}
+
+.questionmark[class] {
+  display: none;
+}
+
+.info[class] {
+  display: none;
+}

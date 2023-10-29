@@ -148,6 +148,9 @@ const defaultConfig = {
     'lyrics-genius': {
       romanizedLyrics: false,
     },
+    'music-map': {
+      enabled: true,
+    },
     'navigation': {
       enabled: true,
     },
