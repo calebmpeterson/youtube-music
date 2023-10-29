@@ -15,7 +15,7 @@ export const injectCSS = (
 };
 
 const setupCssInjection = (webContents: Electron.WebContents) => {
-  webContents.on('did-finish-load', () => {
+  webContents.on('dom-ready', () => {
     cssToInject.forEach(async (callback, css) => {
       await webContents.insertCSS(css);
       callback?.();

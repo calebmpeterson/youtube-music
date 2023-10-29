@@ -6,6 +6,9 @@
   left: 0px !important;
   box-shadow: none !important;
 }
+#gnodMap #s0 {
+  font-weight: bold;
+}
 
 .advert {
   display: none !important;
@@ -25,6 +28,10 @@
   background-color: #020202;
   color: #fff;
 }
+.project[class]:hover {
+  background-color: #020202;
+  color: #fff;
+}
 
 .the_title[class] {
   background-color: #020202 !important;
@@ -35,6 +42,26 @@
   display: none;
 }
 
+.search_button[class] {
+  background-color: #020202 !important;
+}
+
+.search_button[class]:hover {
+  background-color: #000 !important;
+}
+
+.mglass[class] {
+  background-color: #fff !important;
+}
+.mglass[class]:before {
+  border-color: #fff !important;
+}
+
 .info[class] {
   display: none;
+}
+
+.S[class]:hover {
+  background-color: #020202 !important;
+  color: #fff;
 }
